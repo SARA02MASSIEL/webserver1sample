@@ -1,0 +1,30 @@
+{
+  "name": "webserver1sample",
+  "version": "1.0.0",
+  "description": "test1",
+  "keywords": [
+    "webserver",
+    "API",
+    "NodeJs"
+  ],
+  "homepage": "https://github.com/SARA02MASSIEL/webserver1sample#readme",
+  "bugs": {
+    "url": "https://github.com/SARA02MASSIEL/webserver1sample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SARA02MASSIEL/webserver1sample.git"
+  },
+  "license": "MIT",
+  "author": "Sara Massiel Segura Alcantara",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
