@@ -10,7 +10,7 @@ const port = process.env.port || 3000;
 
 app.use(express.static(path.join(path.dirname(fileURLToPath(import.meta.url)), "public")));
 app.set("views", path.join(path.dirname(fileURLToPath(import.meta.url)), "views"));
-app.set("view engine", ejs);
+app.set("view engine", "ejs");
 
 
 app.get("/", (req, res) => {
