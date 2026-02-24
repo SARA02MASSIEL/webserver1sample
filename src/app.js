@@ -8,8 +8,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = process.env.port || 3000;
 
-app.use(express.static(path.join(path.dirname(fileURLToPath(import.meta.url)), "public")));
-app.set("views", path.join(path.dirname(fileURLToPath(import.meta.url)), "views"));
+app.use(express.static(path.join(__dirname, "../public")));
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 
