@@ -14,7 +14,7 @@ app.set("view engine", "ejs");
 
 
 app.get("/", (req, res) => {
-    res.render("index");
+    res.render("index1");
 });
 
 app.listen(port, () => {console.log(`Server is running on http://localhost:${port}`)});[[[[][[]]]]]
